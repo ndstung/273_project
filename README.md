@@ -23,8 +23,8 @@ Each used frequency bin represents 2 bits of output. This is represented by 4 sl
 data is encoded at 0%, 33%, 66%, and 100% of full scale. Full scale can be found in the magnitude of
 frequency bin 55 or 57 being 100%. The energy levels are coded/decoded as follows:
 
-|  Value  |  Coded  |      Condition      |
-|    00   |    0%   |  <25% full scale    |
-|    01   |    33%  |  >=25% and <50%     |
-|    10   |    66%  |  >=50% and <75%     |
-|    11   |    100% |  >=75% full scale   |
+I  Value  I  Coded  I      Condition      I
+I    00   I    0%   I  <25% full scale    I
+I    01   I    33%  I  >=25% and <50%     I
+I    10   I    66%  I  >=50% and <75%     I
+I    11   I    100% I  >=75% full scale   I
